@@ -19,7 +19,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class Agregar {
-
     public static void agregarLibro() {
         // Crear y mostrar la ventana de agregar libro
         JFrame agregarFrame = new JFrame("Agregar Libro");
@@ -56,8 +55,9 @@ public class Agregar {
         lblGenero.setBounds(10, 130, 120, 20);
         lblIdioma.setBounds(10, 160, 120, 20);
 
-        txtNombre.setBounds(140, 10, 200, 20);
-        txtCosto.setBounds(140, 40, 200, 20);
+                txtNombre.setBounds(140, 10, 200, 20);
+        
+                txtCosto.setBounds(140, 40, 200, 20);
         txtCantidad.setBounds(140, 70, 200, 20);
 
         comboEditorial.setBounds(140, 100, 200, 20);
