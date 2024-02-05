@@ -1,0 +1,4 @@
+creacion de una interfaz grafica para una libreria
+1.- primer punto finalizado agregar
+2.- segundo punto modificar listo
+3.- tercer punto consultar listo
