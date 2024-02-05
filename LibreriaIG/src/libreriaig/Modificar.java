@@ -21,7 +21,6 @@ public class Modificar {
         modificarFrame.setSize(400, 300);
         modificarFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
-        // Etiquetas
         JLabel lblIdLibro = new JLabel("ID del Libro a modificar:");
         JLabel lblNuevoNombre = new JLabel("Nuevo Nombre:");
         JLabel lblNuevoGenero = new JLabel("Nuevo Género:");
@@ -163,6 +162,7 @@ public class Modificar {
     }
 
     private static class IdNombreComboItem {
+
         private final int id;
         private final String nombre;
 
