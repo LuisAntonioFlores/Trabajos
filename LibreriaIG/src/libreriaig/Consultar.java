@@ -20,18 +20,14 @@ public class Consultar {
         JFrame consultaFrame = new JFrame("Consulta de Libros");
         consultaFrame.setSize(800, 600);
         consultaFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-
         // Obtener datos de la base de datos
         Vector<Vector<String>> data = getDataFromDatabase();
-
         // Nombres de las columnas
         Vector<String> columnNames = getColumnNames();
-
         // Crear y configurar la tabla
         DefaultTableModel model = new DefaultTableModel(data, columnNames);
         JTable table = new JTable(model);
         table.setAutoCreateRowSorter(true);
-
         JScrollPane scrollPane = new JScrollPane(table);
         scrollPane.setPreferredSize(new Dimension(780, 550));
 
